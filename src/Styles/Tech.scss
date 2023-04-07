@@ -1,0 +1,60 @@
+$dodger: dodgerblue;
+$dark: rgb(5, 15, 44);
+$white: white;
+$cyan-light: #477397;
+$violet: #09163B;
+
+.languanges-container{
+    gap: 1.5rem;
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0rem;
+    margin-top: 1rem;
+    // border: 1px solid $cyan-light;
+
+    // overflow-x: scroll;
+
+    // &::-webkit-scrollbar{
+    //     height: 15px;
+    // }
+    // &::-webkit-scrollbar-track{
+    //     background: none;
+    // }
+    // &::-webkit-scrollbar-thumb{
+    //     background: $cyan-light;
+    // }
+
+    .languange{
+        display: flex;
+        align-items: center;
+        padding-inline: 1.35rem;
+        height: calc(2rem + 50px);
+        background: $violet;
+        gap: 1rem;
+        min-width: 250px;
+        flex: 1;
+        max-width: 350px;
+        transition: transform .1s ease-in-out;
+        font-size: 1.25rem;
+
+        .img-pic{
+            width: 50px;
+            height: 50px;
+            // outline: 1px solid $white;
+            display: grid;
+            place-items: center;
+
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+        &:hover{
+            transform: translateY(-5%);
+            outline: 1px solid $cyan-light;
+        }
+    }
+}
