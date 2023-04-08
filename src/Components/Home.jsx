@@ -1,9 +1,9 @@
 import React from 'react'
-import Intro from '../sections/Intro'
-import About from '../sections/About'
-import Tech from '../sections/Tech'
-import Projects from '../sections/Projects'
-import Contact from '../sections/Contact'
+import Intro from '../Sections/Intro'
+import About from '../Sections/About'
+import Tech from '../Sections/Tech'
+import Projects from '../Sections/Projects'
+import Contact from '../Sections/Contact'
 
 export default function Home() {
 
