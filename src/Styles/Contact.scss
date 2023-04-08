@@ -43,6 +43,11 @@ $yellow: yellow;
             border: none;
             width: 50%;
             margin-inline: auto;
+            cursor: pointer;
+
+            &:hover{
+                background: rgb(10, 68, 87);
+            }
         }
     }
 }

@@ -7,19 +7,19 @@ export default function Intro() {
     <>
       <div className="present">
         <div className="home-texts">
-          <h1>Lorem ipsum dolor sit amet.</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur nobis, debitis mollitia odio doloremque nam numquam quasi magni facere?</p>
+          <h1>Hi, my name is Nash</h1>
+          <h1>I'm a web developer.</h1>
           <div className="btn">
-            <button>Lorem, ipsum.</button>
+            <button>My Resume</button>
           </div>
         </div>
-        <div className="home-imgs">
+        {/* <div className="home-imgs">
           <div className='skew'>
             <div className="bg-color">
               <img src="https://picsum.photos/id/234/300/300" alt="pic" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )

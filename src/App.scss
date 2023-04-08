@@ -5,6 +5,7 @@ $coral: lightcoral;
 $dodger: dodgerblue;
 $cyan-light: #477397;
 $yellow: yellow;
+$cyan: #69F5FF;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400&display=swap');
@@ -47,6 +48,12 @@ $yellow: yellow;
     
         p{
             font-size: 2rem;
+            display: flex;
+            gap: .6rem;
+
+            span{
+                color: $cyan;
+            }
         }
         span{
             display: flex;
@@ -113,10 +120,14 @@ $yellow: yellow;
                         text-align: center;
                         font-size: 3.5rem;
                     }
+                    h1:nth-of-type(1){
+                        font-size: 4rem;
+                    }
                     p{
                         text-align: center;
                     }
                     .btn{
+                        margin-top: .5rem;
                         display: grid;
                         place-items: center;
                     }

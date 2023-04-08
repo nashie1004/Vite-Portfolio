@@ -9,11 +9,11 @@ import fullnode from '../Assets/fullnode.png'
 import dbBG from '../Assets/dbBG.png'
 
 import PROJ1 from '../Assets/PROJ1.gif'
-import PROJ2 from '../Assets/PROJ2.gif'
+import newChat from '../Assets/newChat.gif'
 import proj3GIF from '../Assets/proj3GIF.gif'
 
 const DESCRIPTION_ONE = 'A path finding/graph traversal algorithm visualizer using Javascript without any libraries. This project showcases common graph traversal algorithms such as DFS, BFS, Dijkstra and A* algorithm with an easy to use interface.'
-const DESCRIPTION_TWO = 'A full stack web application made with React, Express.js and MongoDB Atlas. This project lets you create an account and communicate with other users using web sockets to emit messages from front-end to backend on real time.'
+const DESCRIPTION_TWO = 'A full stack web application made with React, Express.js and MongoDB Atlas using libraries such as socket.io and JWT. This project lets you create an account and communicate with other users using web sockets to emit messages from front-end to backend on real time.'
 const DESCRIPTION_THREE = "A Spotify clone made using React, Express.js, and Spotify's REST API. This project lets you manage your Spotify account by adding and removing tracks from your library and lets you surf various albums, playlists, artists and their songs."
 
 const obj = [
@@ -23,20 +23,20 @@ const obj = [
     techs: [
       { name: 'JavaScript', image: js }
     ],
-    liveURL: '#',
+    liveURL: 'https://nashie1004.github.io/Path-Finding-Visualizer/',
     githubURL: ['https://github.com/nashie1004/Path-Finding-Visualizer'],
     description: DESCRIPTION_ONE 
   },
   {
     title: 'Socket.io Chat App with MongoDB Atlas',
-    gifImg: PROJ2,
+    gifImg: newChat,
     techs: [
       { name: 'SASS', image: sass },
       { name: 'React', image: react },
       { name: 'Express.js', image: fullnode },
       { name: 'MongoDB Atlas', image: dbBG }
     ],
-    liveURL: '#',
+    liveURL: 'https://socketiochatappreact.onrender.com',
     githubURL: [
       'https://github.com/nashie1004/Socket.io-MongoDB-front',
       'https://github.com/nashie1004/Socket.io-MongoDB-back',
@@ -51,7 +51,7 @@ const obj = [
       { name: 'React', image: react },
       { name: 'Express.js', image: fullnode }
     ],
-    liveURL: '#',
+    liveURL: 'https://spotify2react.onrender.com/',
     githubURL: [
       'https://github.com/nashie1004/Client-Spotify',
       'https://github.com/nashie1004/Server-Spotify'

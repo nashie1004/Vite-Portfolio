@@ -4,6 +4,9 @@ $coral: lightcoral;
 $yellow: yellow;
 $light-grey: lightgrey;
 $white: white;
+$light-blue: #517592;
+$border: #2E5C82;
+$cyan: #69F5FF;
 
 .present{
     width: 100%;
@@ -14,16 +17,20 @@ $white: white;
     gap: 1rem;
 
     @mixin flex{
-        // border: 1px dashed $dodger;
+        // outline: 1px dashed $dodger;
         flex: 1;
         min-width: 300px;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         gap: 1.6rem;
         min-height: 400px;
         padding: 1rem;
+
+        & > *{
+            // text-align: center;
+            // outline: 1px dashed $dodger;
+        }
     }
 
     .home-texts{
@@ -31,20 +38,26 @@ $white: white;
         
         h1{
             width: 100%;
-            font-size: 3.6rem;
+            font-size: 4.5rem;
+            color: $cyan;
+        }
+        h1:nth-child(1){
+            font-size: 6rem;
+            color: $white;
         }
         p{
             font-size: 1.2rem;
             line-height: 2rem;
-            color: $cyan-light;
+            color: $border;
+            width: 50%;
         }
         .btn{
             width: 100%;
 
             button{
                 background: none;
-                font-size: 1.2rem;
-                padding: 1rem 1.5rem;
+                font-size: 1.5rem;
+                padding: 1.3rem 2.2rem;
                 border: 2px solid $dodger;
                 max-width: 230px;
                 transition: background .2s ease-in-out;
@@ -52,6 +65,7 @@ $white: white;
                 &:hover{
                     cursor: pointer;
                     background: $dodger;
+                    color: black;
                 }
             }
         }
