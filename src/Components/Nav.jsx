@@ -6,10 +6,10 @@ export default function Nav() {
     <div className='Nav'>
       <p className='heading-p'>Nash <span>Andrew</span></p>
       <span>
-        <a href='/'>
+        <a href='https://github.com/nashie1004'>
           <FaGithub size='2.1rem' />
         </a>
-        <a href='/'>
+        <a href='https://www.linkedin.com/in/nash-ocenar-447b63253/'>
           <FaLinkedin size='2.1rem' />
         </a>
       </span>
