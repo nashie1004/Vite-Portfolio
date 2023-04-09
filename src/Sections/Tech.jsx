@@ -9,6 +9,7 @@ import sass from '../Assets/sass.png'
 import react from '../Assets/react.png'
 import jsnode from '../Assets/jsnode.png'
 import git from '../Assets/git.png'
+import dbBG from '../Assets/dbBG.png'
 const vite = 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg'
 
 const IMG_ARRAY = [
@@ -19,7 +20,7 @@ const IMG_ARRAY = [
     {url: react, name: 'React'},
     {url: jsnode, name: 'Express.js'},
     {url: git, name: 'Git'},
-    {url: vite, name: 'Vite'},
+    {url: dbBG, name: 'MongoDB Atlas'},
 ];
 
 export default function Tech() {
