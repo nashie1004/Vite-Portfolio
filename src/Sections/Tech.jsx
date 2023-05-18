@@ -5,22 +5,26 @@ import LanguangeCard from '../Components/LanguangeCard'
 import html from '../Assets/html.png'
 import css from '../Assets/css.png'
 import js from '../Assets/js.png'
+import ts from '../Assets/typescript.png'
 import sass from '../Assets/sass.png'
 import react from '../Assets/react.png'
 import jsnode from '../Assets/jsnode.png'
 import git from '../Assets/git.png'
-import dbBG from '../Assets/dbBG.png'
+import mysql from '../Assets/mysql.png'
+import mongoDB from '../Assets/newMongoDB.png'
 const vite = 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg'
 
 const IMG_ARRAY = [
     {url: html, name: 'HTML5'}, 
     {url: css, name: 'CSS3'},
-    {url: js, name: 'JavaScript'},
     {url: sass, name: 'SASS'},
-    {url: react, name: 'React'},
-    {url: jsnode, name: 'Express.js'},
+    {url: js, name: 'Javascript'},
+    {url: ts, name: 'Typescript'},
+    {url: react, name: 'React.js'},
+    {url: jsnode, name: 'Node.js'},
+    {url: mysql, name: 'MySQL'},
+    {url: mongoDB, name: 'MongoDB Atlas'},
     {url: git, name: 'Git'},
-    {url: dbBG, name: 'MongoDB Atlas'},
 ];
 
 export default function Tech() {
